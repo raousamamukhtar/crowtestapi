@@ -16,15 +16,51 @@ This project is a modern C++ REST API that uses the **Crow** framework to serve 
 
 ## 🧰 Prerequisites
 
-Make sure you have the following installed:
-
-- Visual Studio 2022 (with Desktop Development with C++)
-- MySQL Server (Aiso standalone)
-- MySQL Connector/C++ (Download from MySQL)
-- `crow.h` (from the [Crow GitHub repo](https://github.com/CrowCpp/crow))
-- C++17 enabled
+Before you begin, ensure you have the following tools and libraries installed:
 
 ---
+
+### 🧱 Development Tools
+
+- ✅ **Visual Studio 2022** (with C++ Desktop Development workload)  
+  📥 [Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+
+- ✅ **C++17 Enabled**  
+  ➤ Set C++17 in your project settings:  
+  `Project → Properties → C/C++ → Language → C++ Language Standard → ISO C++17 (/std:c++17)`
+
+---
+
+### 🐬 Database & Connector
+
+- ✅ **MySQL Server** (Localhost database for storing users)  
+  📥 [Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+
+- ✅ **MySQL Connector/C++** (Required for C++-MySQL integration)  
+  📥 [Download MySQL Connector/C++](https://dev.mysql.com/downloads/connector/cpp/)
+
+---
+
+### 🌐 C++ Web Framework
+
+- ✅ **Crow C++ Framework**  
+  Single header REST API framework for C++  
+  📥 [Download crow_all.h](https://github.com/CrowCpp/crow/releases)  
+  🔗 [View Crow on GitHub](https://github.com/CrowCpp/crow)
+
+> 📌 Place `crow_all.h` in your project folder or configure your include path.
+
+---
+
+### 🛠️ Optional Tools
+
+- 🧪 **Postman** (For testing your API)  
+  📥 [Download Postman](https://www.postman.com/downloads/)
+
+---
+
+✅ Once you have all these installed and configured, you're ready to start building your REST API project with C++ and MySQL!
+
 
 ## 🧩 Visual Studio 2022 Configuration (Step-by-Step)
 
