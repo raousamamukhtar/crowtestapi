@@ -151,8 +151,10 @@ INSERT INTO user (name, email) VALUES
 ('Usama Mukhtar', 'usama@example.com'),
 ('Ali Khan', 'ali@example.com');
 
-  
-## 👨‍💻 Author
+``` 
+
+
+
 
 **M. Usama Mukhtar**  
 🎓 Computer Science Student | Full Stack Developer  
